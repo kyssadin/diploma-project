@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LevelManager">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgQQBEgRBBAACAgBIEAYIAABgAAAASEEAIACQQgRAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\LevelManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mouseInput" />
+      <Field Name="footInput" />
+      <Field Name="keyInput" />
+      <Field Name="alertScript" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DifficultyManager">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAFAAAAAAAAAAAAAQEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\DifficultyManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerMovement">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAgAACAAAQEAAAAAAAAAAAAAAQAIAASAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseMovement">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAYAAAACAQAAAAAAAAAAAgAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\MouseMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FootstepsScript">
+    <Position X="16" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\FootstepScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplosionTriggerScript">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAIAgAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Entities\ExplosionTriggerScript.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="screenShake" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HoverScript">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAACAQAAAECCAIAAAAEAAAAAAAIAAAAEAYAEA=</HashCode>
+      <FileName>Assets\Scripts\Entities\HoverScript.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="levelManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TargetScript">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAIAAAAAAAgAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Entities\TargetScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultYieldScript">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\ResultYieldScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultAlertScript">
+    <Position X="12.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Entities\ResultAlertScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenShakeScript">
+    <Position X="17" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\ScreenShakeScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
