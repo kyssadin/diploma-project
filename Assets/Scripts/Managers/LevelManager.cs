@@ -25,19 +25,19 @@ public class LevelManager : MonoBehaviour
     [SerializeField] MouseMovement mouseInput;
     [SerializeField] FootstepsScript footInput;
 
-    private float difficulty = 0;
+    public float difficulty = 0;
     private int WaveNumber = 3;
     private int waveCount = 0;
-    private int correctGuesses = 0;
+    public int correctGuesses = 0;
     private List<int> activeTargetsIndices;
     private const int Level2TargetsActive = 6;
 
     private float timeForWave = 5f;
     private bool intensificationActive = false;
 
-    private float currentScore = 0;
+    public float currentScore = 0;
     private float waveTimeElapsed = -3; 
-    private float totalTimeElapsed = -3; 
+    public float totalTimeElapsed = -3; 
     private float comboMultiplier = 1; 
 
     public bool WaveStarted { get; private set; } = false;
